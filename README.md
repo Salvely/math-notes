@@ -1,94 +1,20 @@
 # math-notes
 
-本仓库中存放本人学习 MIT 数学课程的笔记，以及其他的一些书籍阅读笔记，还有习题解答。笔记全部使用 Latex 书写，学习路径参考了[MIT Mathematics roadmap](https://math.mit.edu/academics/undergrad/roadmaps.php)。因为本人是计算机专业，学数学是为了服务于计算机科学，因此下列学习内容主要偏向于计算机科学数学。对于经济数学、物理数学和纯数部分，如有余力后期会补充。本学习路径完全遵循 MIT 的课程安排，严格保证课程及其前置课程的学习，有需要的同学可以按照顺序放心食用。相关的书籍多为课程教材或本人自行挑选，以供参考。习题解答不保证完全正确，与答案对不上的习题我会进行额外标注。
+本仓库中存放本人学习 MIT 数学课程的笔记，以及其他的一些书籍阅读笔记，还有习题解答。笔记全部使用 Latex 书写，学习路径参考了[MIT Mathematics roadmap](https://math.mit.edu/academics/undergrad/roadmaps.php)。因为本人是计算机专业，学数学是为了服务于计算机科学，因此下列学习内容主要偏向于计算机科学数学。对于经济数学、物理数学和纯数部分，如有余力后期会补充。本学习路径完全遵循 MIT 的课程安排，严格保证课程及其前置课程的学习，有需要的同学可以按照顺序放心食用。相关的书籍多为课程教材或本人自行挑选，以供参考。习题解答不保证完全正确，与答案对不上的习题我会进行额外标注。笔记所使用的模板参考[template.tex](./template.tex)
 
-当前笔记内容包含以下几个方向的课程：
-
-- 计算机科学
-- 计算科学与工程
-- 统计与数据科学
-- 组合学
-
-- [ ] [MIT Single Variable Calculus](./微积分/)
-- [ ] [MIT Multivariable Calculus](./微积分/)
-- [ ] MIT Linear Algebra
-- [ ] MIT 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
-- [ ] MIT Linear Algebra and its optimization
-- [ ] MIT 18.700 Advanced Linear Algebra
-- [ ] MIT 18.303 Linear Partial Differential Equations: Analysis and Numerics
-- [ ] MIT 18.04 Complex Variables with Applications
-- [ ] MIT 18.05 Introduction to Probability and Statistics
-- [ ] MIT Mathematics for Computer Science
-- [ ] MIT Intro to Mathematical Reasoning
-- [ ] MIT Principles of discrete Applied mathematics
-- [ ] MIT 18.03 Differential Equations
-- [ ] MIT 18.032 Differential Equations
-- [ ] MIT 18.330 Introduction to Numerical Analysis
-- [ ] MIT 6.3700 Introduction to Probability
-- [ ] 6.3800 Introduction to Inference
-- [ ] 18.05 Introduction to Probability and Statistics
-- [ ] MIT 18.600 Probability and Random Variables
-- [ ] MIT 18.650 Fundamentals of Statistics
-- [ ] 18.100A Real Analysis
-- [ ] 18.100B Real Analysis
-- [ ] 18.100P Real Analysis
-- [ ] 18.100Q Real Analysis
-- [ ] MIT 18.S190 [Introduction To Metric Spaces](https://ocw.mit.edu/courses/18-s190-introduction-to-metric-spaces-january-iap-2023/) 或 [18.S190, IAP 2023 (mit.edu)](https://web.mit.edu/paigeb/www/18.S190/)
-- [ ] MIT 18. S191 [index — Interactive Computational Thinking — MIT](https://computationalthinking.mit.edu/Fall23/)
-- [ ] MIT 18.701 Algebra I
-- [ ] MIT 18.335[J] Introduction to Numerical Methods
-- [ ] 6.7300[J] Introduction to Modeling and Simulation
-- [ ] 16.920[J] Numerical Methods for Partial Differential Equations
-- [ ] 18.085 Computational Science and Engineering I
-- [ ] MIT 18.336[J] Fast Methods for Partial Differential and Integral Equati
-- [ ] 18.204 Undergraduate Seminar in Discrete Mathematics
-- [ ] 18.211 Combinatorial Analysis
-- [ ] 6.100A Introduction to Computer Science Programming in Python
-- [ ] 6.120A Discrete Mathematics and Proof for Computer Science
-- [ ] 6.1210 Introduction to Algorithms
-- [ ] 18.400[J] Computability and Complexity Theory
-- [ ] 18.404 Theory of Computation
-- [ ] 18.410[J] Design and Analysis of Algorithms
-- [ ] 18.424 Seminar in Information Theory
-- [ ] 18.434 Seminar in Theoretical Computer Science
-- [ ] 18.453 Combinatorial Optimization
-- [ ] 18.337[J] Parallel Computing and Scientific Machine Learning
-- [ ] 18.338 Eigenvalues of Random Matrices
-- [ ] 18.367 Waves and Imaging
-- [ ] 18.415[J] Advanced Algorithms
-- [ ] 18.416[J] Randomized Algorithms
-- [ ] 18.425[J] Foundations of Cryptography
-- [ ] 8.01 Physics I
-- [ ] 8.02 Physics II
-- [ ] 8.03 Physics III
-- [ ] 8.04 Quantum Physics I
-- [ ] 8.041 Quantum Physics I
-- [ ] 8.05 Quantum Physics II
-- [ ] 18.435[J] Quantum Computation
-- [ ] 18.437[J] Distributed Algorithms
-- [ ] 18.455 Advanced Combinatorial Optimization
-- [ ] 18.702 Algebra II
-- [ ] 18.703 Modern Algebra
-- [ ] 18.783 Elliptic Curves
-- [ ] 18.102 Introduction to Functional Analysis
-- [ ] 18.112 Functions of a Complex Variable
-- [ ] 18.642 Topics in Mathematics with Applications in Finance
-- [ ] 18.125 Measure Theory and Analysis
-- [ ] 18.675 Theory of Probability
-- [ ] 18.676 Stochastic Calculus
-- [ ] 18.615 Introduction to Stochastic Processes
-- [ ] 18.657 Topics in Statistics
-- [ ] 18.900 Geometry and Topology in the Plane
-- [ ] 18.212 Algebraic Combinatorics
-- [ ] 18.901 Introduction to Topology
-- [ ] 18.721 Introduction to Algebraic Geometry
-- [ ] 18.781 Theory of Numbers
-- [ ] 18.950 Differential Geometry
-- [ ] 18.217 Combinatorial Theory
-- [ ] 18.218 Topics in Combinatorics
-- [ ] 18.225 Graph Theory and Additive Combinatorics
-- [ ] 18.226 Probabilistic Methods in Combinatorics
-- [ ] 18.705 Commutative Algebra
-- [ ] 18.715 Introduction to Representation Theory
-- [ ] 18.725 Algebraic Geometry I
-- [ ] 18.745 Lie Groups and Lie Algebras I
+- 微积分
+  - [Ron Larson 《Calculus》阅读笔记](./微积分/Ron%20Larson%20Calculus%20阅读笔记.pdf)
+  - [ ] 微积分公式总结
+  - [ ] 微积分经典习题解答
+- 数学分析
+- 线性代数
+  - [Gilbert Strang 《Introduction to Linear Algebra》阅读笔记](./线性代数/Introduction%20to%20Linear%20Algebra%20阅读笔记.pdf)
+- 高等代数
+- 解析几何
+- 微分方程
+- 复变函数
+- 数学物理方法
+- 概率论与数理统计
+- 离散数学
+- 数值分析
+- 逻辑学与集合论
